@@ -1,0 +1,15 @@
+/home/ec2-user/myFlaskApp/
+│── app.py
+│── wsgi.py
+│── templates/
+│   ├── index.html
+│── static/
+│   ├── styles.css
+│   ├── script.js
+│   ├── images/
+│       ├── example.jpg
+
+
+
+sudo chown -R ec2-user:nginx /home/ec2-user/myFlaskApp
+sudo chmod -R 775 /home/ec2-user/myFlaskApp
