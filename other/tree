@@ -15,3 +15,5 @@ sudo chown -R ec2-user:nginx /home/ec2-user/myFlaskApp
 sudo chmod -R 775 /home/ec2-user/myFlaskApp
 sudo systemctl status app
 
+https://www.codewithharry.com/blogpost/flask-app-deploy-using-gunicorn-nginx/
+
